@@ -1,2 +1,2 @@
 # devops-netology
-Learning devops
+This repo for learning devops
