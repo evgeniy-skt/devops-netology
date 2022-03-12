@@ -2,9 +2,9 @@
 2. Стоит Microsoft Authenticator и настроена двухфактораная аутентификация через приложение в GitHub, личную и корпоративную почту, и в соцсети.
 3. Настроил. 
 ![ip_screen](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/3.9.3.3.png)
-При обращении curl вот результат.
+При обращении curl вот результат. Насколько понял это из-за того что нельзя проверить подлинность сертификата.
 ![ip_screen](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/3.9.3.1.png)
-При вызове curl с -k результат 
+При вызове curl с -k результат.
 ![ip_screen](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/3.9.3.2.png)
 4. Проверял сайт auth.dodopizza.ru
 ![ip_screen](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/3.9.4.1.png)
