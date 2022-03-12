@@ -1,0 +1,18 @@
+1. Установлен LastPass
+2. Стоит Microsoft Authenticator и настроена двухфактораная аутентификация через приложение в GitHub, личную и корпоративную почту, и в соцсети.
+3. Настроил. 
+![ip_screen](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/3.9.3.3.png)
+При обращении curl вот результат.
+![ip_screen](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/3.9.3.1.png)
+При вызове curl с -k результат 
+![ip_screen](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/3.9.3.2.png)
+4. Проверял сайт auth.dodopizza.ru
+![ip_screen](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/3.9.4.1.png)
+![ip_screen](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/3.9.4.2.png)
+5. Установил ssh сервер. Сгенерировал ключ на своей локальной машине. Скопировал ключ с локальной машины на виртуальную с помощью 
+`echo ssh-rsa public_key= e.ivanchenko@MacBook-Pro-2.local >> ~/.ssh/authorized_keys`. И при попытке подключиться с локальной машины на виртуальную без использования `vagrant ssh` с командой `ssh e.ivanchenko@MacBook-Pro-2.local@127.0.0.1` получаю ответ `ssh: connect to host 127.0.0.1 port 22: Connection refused`. 
+Кажется я не совсем то что нужно делаю. 
+Мне нужна еще одна виртуалка с установленным на ней ssh-сервером и ключами нужно между ними перекидываться? Или нужен еще какой-то удаленный хост? Или достаточно с локального хоста на виртуальный хост подключиться?
+6. Не сделал т.к. не сделал предыдущее задание
+7. Сделал
+![ip_screen](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/3.9.7.png)
