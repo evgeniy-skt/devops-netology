@@ -33,7 +33,7 @@ do
 				then
 					ip >> error.log
 					exit
-            fi
+           	 	fi
 		done
 	sleep 3
 done
