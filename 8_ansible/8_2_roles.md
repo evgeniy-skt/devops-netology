@@ -72,17 +72,25 @@
 
 ```
 3. При создании tasks рекомендую использовать модули: `get_url`, `template`, `unarchive`, `file`.
+
+
 Использую
+
 4. Tasks должны: скачать нужной версии дистрибутив, выполнить распаковку в выбранную директорию, сгенерировать конфигурацию с параметрами.
+
+
 Так и есть
+
 5. Запустите `ansible-lint site.yml` и исправьте ошибки, если они есть.
 ![lint_errors](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_lint_empty_errors.png)
 6. Попробуйте запустить playbook на этом окружении с флагом `--check`.
 ![check](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_ansible_check.png)
 7. Запустите playbook на `prod.yml` окружении с флагом `--diff`. Убедитесь, что изменения на системе произведены.
 ![diff](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_ansible_diff.png)
+![diff_1_1](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_ansible_diff_1_1.png)
 8. Повторно запустите playbook с флагом `--diff` и убедитесь, что playbook идемпотентен.
 ![diff2](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_ansible_diff2.png)
+![diff2](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_ansible_diff2_1.png)
 9. Подготовьте README.md файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги.
 [Сделал](https://github.com/evgeniy-skt/ansible-playbook/blob/main/README.md)
 10. Готовый playbook выложите в свой репозиторий, в ответ предоставьте ссылку на него.
