@@ -1,11 +1,22 @@
 ## Подготовка к выполнению
 1. Создайте свой собственный (или используйте старый) публичный репозиторий на github с произвольным именем.
+
+
 Сделал [репозиторий](https://github.com/evgeniy-skt/ansible-playbook)
+
 2. Скачайте [playbook](./playbook/) из репозитория с домашним заданием и перенесите его в свой репозиторий.
+
+
 [Сделал](https://github.com/evgeniy-skt/ansible-playbook/tree/main/playbook)
+
 3. Подготовьте хосты в соотвтествии с группами из предподготовленного playbook.
+
+
 [Сделал](https://github.com/evgeniy-skt/ansible-playbook/blob/main/docker-compose.yml)
+
 4. Скачайте дистрибутив [java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) и положите его в директорию `playbook/files/`.
+
+
 Сделал
 
 ## Основная часть
