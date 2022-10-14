@@ -85,6 +85,10 @@
 ![lint_errors](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_lint_empty_errors.png)
 6. Попробуйте запустить playbook на этом окружении с флагом `--check`.
 ![check](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_ansible_check.png)
+UPD
+![check_fixed_1](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_ansible_check_fixed_1.png)
+![check_fixed_2](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_ansible_check_fixed_2.png)
+
 7. Запустите playbook на `prod.yml` окружении с флагом `--diff`. Убедитесь, что изменения на системе произведены.
 ![diff](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_ansible_diff.png)
 ![diff_1_1](https://github.com/evgeniy-skt/devops-netology/blob/main/screenshots/8_2_ansible_diff_1_1.png)
